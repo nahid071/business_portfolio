@@ -1,3 +1,4 @@
+
 export default function About() {
     return (
         <main className="font-sans text-gray-800">
@@ -21,7 +22,13 @@ export default function About() {
                             From a one-person setup to a growing creative team, our passion remains the same: building brands that are memorable, functional, and future-ready.
                         </p>
                     </div>
-                    <img src="/about-us.jpg" alt="Our team" className="rounded-xl shadow-lg" />
+
+                    {/* Replaced Image with Code-Based Illustration */}
+                    <div className="flex justify-center items-center">
+                        <div className="w-full h-64 bg-blue-100 rounded-xl flex items-center justify-center">
+                            <div className="text-blue-600 text-6xl">💡</div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
